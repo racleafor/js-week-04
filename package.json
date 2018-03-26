@@ -1,0 +1,18 @@
+{
+  "name": "js-week-04",
+  "version": "0.0.1",
+  "description": "JavaScript Week 4 - const, Nested Blocks, & Tooling",
+  "main": "index.js",
+  "author": "Weston Littrell",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo 'No tests this week!'"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.11.1"
+  }
+}
