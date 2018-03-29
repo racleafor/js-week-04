@@ -29,96 +29,29 @@
  *    clear, commit and push your changes!
  */
 
+const fortyTwo = () => 42
 
+const helloWorld = () => 'Hello World'
 
+const twoTrue = () => 2
 
+const trueNotTwo = () => 2 !== 3
 
-const fortyTwo = () => 42;
+const twoPlusTwo = () => 2 + 2 === 5
 
+const ohYeahDecimals = () => 1.0 + 1.0 + 1.0 === 4
 
+const ohNoDecimals = () => {
+  return 0.1 + 0.1 + 0.1 === 0.3
+}
 
+const waxingParenthetical = () => 2 * 5 + 1 === 12
 
+const add = (numOne, numTwo) => numOne + numTwo
 
-const helloWorld = () =>
+const closure = () => (x => y => z => x + y + z)(1, 2, 3)
 
-
-  'Hello ' + ''
-
-
-
-
-
-const twoTrue = () =>
-
-
-  2 === 2
-
-
-
-
-const trueNotTwo = () =>
-
-
-  2 !== 2
-
-
-
-
-
-const twoPlusTwo = () =>
-
-
-  2 + 2 === 5
-
-
-
-
-
-
-
-const ohYeahDecimals = () =>
-
-
-  1.0 + 1.0 + 1.0 === 4
-
-
-
-
-
-const ohNoDecimals = () =>
-
-
-  { 0.1 + 0.1 + 0.1 === 0.3}
-
-
-
-
-
-const waxingParenthetical = () =>
-
-
-  2 * 5 + 1 === 12
-
-
-
-
-
-const add = (numOne, numTwo) => ''
-  
-
-
-const closure = () => (
-  (x) =>
-    (y) =>
-      (z) => x + y + z
-)(1, 2, 3)
-
-
-
-const commaFTW = () => (
-  1, 1 + 2 + 4
-)
-
+const commaFTW = () =>  1 + 2 + 4
 
 module.exports = {
   fortyTwo,
@@ -129,8 +62,7 @@ module.exports = {
   ohYeahDecimals,
   ohNoDecimals,
   waxingParenthetical,
-  playOperation,
-  thatModulusTho,
+  add,
+  closure,
+  commaFTW
 }
-
-
